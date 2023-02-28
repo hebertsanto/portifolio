@@ -1,7 +1,9 @@
+ import { StyleFooter } from "./style"
+
 export const Footer = () => {
     return(
-        <footer>
+        <StyleFooter>
              <p>footer</p>
-        </footer>
+        </StyleFooter>
     )
 }

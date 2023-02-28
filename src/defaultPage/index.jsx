@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { Footer } from "../components/footer";
 import { Header } from "../components/header";
-
+import {Footer} from '../components/footer'
 export const DefaultPage = () => {
     return (
         <div>
