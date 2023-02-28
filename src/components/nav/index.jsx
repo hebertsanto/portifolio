@@ -14,6 +14,12 @@ export const Nav = () => {
             <LinkComponent to="/contact">
                 contact
             </LinkComponent>
+            <LinkComponent to="/contact">
+                front end
+            </LinkComponent>
+            <LinkComponent to="/contact">
+                back end
+            </LinkComponent>
         </Navigation>
     )
 }

@@ -7,7 +7,7 @@ export const Header = () => {
     return(
         <HeaderStyle>
             <Logo>
-                portifolio
+                Hebert santos
             </Logo>
              <Nav />
         </HeaderStyle>
