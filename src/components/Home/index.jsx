@@ -1,16 +1,10 @@
 import React from "react";
-import { Container, SubContainer, Title } from "./style";
-import { MainProjects } from "../mainProjects";
-import { LatestBlog } from "../latestBlog";
-
+import { Container } from "@mui/material";
+import style from './home.module.css';
 export const Home = () => {
     return (
-        <Container>
-            <MainProjects />
-            <SubContainer>
-                <Title>Bem vindos ao Meu portifolio</Title>
-            </SubContainer>
-            <LatestBlog />
+        <Container className={style.Height}>
+             <h2>trs</h2>
         </Container>
     )
 }

@@ -1,4 +1,5 @@
-import { LinkStyled } from "./style"
+import { Link } from "react-router-dom"
+
 export const LinkComponent = ({to, children}) => {
-    return <LinkStyled to={to}>{children}</LinkStyled>
+    return <Link to={to}>{children}</Link>
 }

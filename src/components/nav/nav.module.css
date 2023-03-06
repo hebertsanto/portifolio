@@ -1,0 +1,10 @@
+.Nav{
+  display: flex;
+  align-items: center;
+}
+.Nav a{
+    list-style: none;
+    color: black;
+    margin: 6px;
+    text-decoration: none;
+}

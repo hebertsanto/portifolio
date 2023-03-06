@@ -1,0 +1,17 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    border-top: 1px solid rgba(241, 240, 240, 0.629);
+}
+.Footer a{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+    font-size: 1.4rem;
+}
+.Footer a:hover{
+    transition: 0.4ms;
+   color: gray;
+}

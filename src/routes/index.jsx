@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from '../components/Home'
 import { DefaultPage } from '../defaultPage'
-import Global from '../styles/global'
+
+import { About } from './about'
 
 export const RouterComponent = () => {
     return (
@@ -9,9 +10,9 @@ export const RouterComponent = () => {
                 <Routes>
                      <Route path='/' element={<DefaultPage />} >
                         <Route path='/' element={<Home />}/>
+                        <Route path='/about' element={<About />}/>
                      </Route>
                 </Routes>
-                <Global />
         </BrowserRouter>
     )
 }

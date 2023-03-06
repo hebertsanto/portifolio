@@ -1,15 +1,15 @@
 import React from "react";
-import { Logo } from "../logo";
-import { HeaderStyle } from "./style";
-import { Nav } from "../nav";
+import {Logo} from '../logo'
+import style from './header.module.css';
+import {Nav} from '../nav'
 
 export const Header = () => {
-    return(
-        <HeaderStyle>
+    return (
+        <header className={style.Header}>
             <Logo>
-                Hebert santos
+                 Hebert .
             </Logo>
-             <Nav />
-        </HeaderStyle>
+            <Nav />
+        </header>
     )
 }
