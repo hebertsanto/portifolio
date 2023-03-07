@@ -1,10 +1,13 @@
 import React from "react";
-import { Container } from "@mui/material";
 import style from './home.module.css';
+
 export const Home = () => {
     return (
-        <Container className={style.Height}>
-             <h2>trs</h2>
-        </Container>
+        <div className={style.Height}>
+             <h2>Welcome to my website</h2>
+             <div>
+                 <h3>latest posts</h3>
+             </div>
+        </div>
     )
 }

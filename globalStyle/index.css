@@ -1,3 +1,18 @@
 *{
     font-family: roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+p{
+    font-size: 1rem;
+    color: rgb(109, 105, 105);
+}
+h1, h2, h3, h4, h5, h6{
+    color: rgba(1, 1, 1, 0.849);
+}
+h2{
+    font-size: 1.4rem;
 }

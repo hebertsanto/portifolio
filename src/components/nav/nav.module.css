@@ -4,7 +4,10 @@
 }
 .Nav a{
     list-style: none;
-    color: black;
+    color: rgba(20, 20, 20, 0.88);
     margin: 6px;
     text-decoration: none;
+}
+.Nav a:hover{
+  color: black;
 }

@@ -6,8 +6,8 @@ import {Nav} from '../nav'
 export const Header = () => {
     return (
         <header className={style.Header}>
-            <Logo>
-                 Hebert .
+            <Logo to="/">
+                 Hebert 
             </Logo>
             <Nav />
         </header>

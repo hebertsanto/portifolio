@@ -1,5 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export const Logo = ({children}) => {
-    return <div><h2>{children}</h2></div>
+export const Logo = ({children, to}) => {
+    return <Link to={to}><h2>{children}</h2></Link>
 }
